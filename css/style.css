@@ -4,9 +4,10 @@ body {
 }
 .search-field {
   border: none;
-  border-radius: 50px;
+  border-radius: 5px;
   padding: 5px;
   outline: none;
+  background: rgb(219, 203, 173);
 }
 .search-field:hover {
   outline: none;
@@ -14,16 +15,19 @@ body {
 }
 .search-box {
   border: 1px solid rgb(3, 118, 211);
-  width: 281px;
+  width: 495px;
   border-radius: 5px;
   margin: auto;
   margin-top: 50px;
   border-right: none;
+  margin-bottom: 70px;
+
 }
 .search-button {
   padding: 10px 50px;
   border-radius: 25px;
-  margin-left: 20px;
+  margin-left: 244.5px;
+  font-weight: 600;
 }
 #all-products {
   display: grid;
@@ -38,11 +42,15 @@ body {
 .single-product {
   padding: 10px;
   transition: 0.6s;
+  background-color:rgb(63, 52, 52);
+  margin: 10px;
+  color: whitesmoke;
+  
 }
 .single-product:hover {
   box-shadow: 4px 4px 7px gray;
   border-radius: 10px;
-  border: 1px solid cyan;
+  border: 1px solid rgb(190, 240, 11);
 }
 .product-image {
   width: 150px;
@@ -84,3 +92,4 @@ body {
     grid-template-columns: repeat(1, 1fr);
   }
 }
+
